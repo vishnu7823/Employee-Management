@@ -1,0 +1,87 @@
+.create-employee {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 0px; /* Increased spacing for better readability */
+}
+
+label {
+    display: block;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.gender-course-container {
+    display: flex;
+    justify-content: space-between; /* Adjust space between the columns */
+}
+
+.gender-group,
+.course-group {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    flex: 1;
+    margin-right: 20px; /* Space between gender and course sections */
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: block;
+}
+
+.submit-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: #3a7bd5;
+}
+
+.submit-btn:active {
+    background-color: #2e5c9e;
+}

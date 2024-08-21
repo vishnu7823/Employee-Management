@@ -1,0 +1,73 @@
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    padding: 1rem 2rem;
+    color: white;
+   
+        position: sticky;
+        top: 0;
+        /* background-color: #fff; Adjust as needed */
+        z-index: 1000;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar li:hover {
+    background-color: #3a7bd5;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 1rem;
+}
+
+.user-info button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-info button:hover {
+    background-color: #d32f2f;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #f0f2f5;
+}
+
+.content h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
